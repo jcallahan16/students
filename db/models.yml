@@ -1,6 +1,20 @@
-# Example table for a typical Book model.
-#
-# Book:
+Course:
+  - title: string
+  - max_enrollment: integer
+  - teacher_id: integer
+  - student_id: integer
+
+Teacher:
+  - name: string
+
+Student:
+  - name: string
+
+
+
+
+
+
 #   - title: string
 #   - price: integer
 #   - author: string
